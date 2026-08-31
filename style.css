@@ -1,0 +1,39 @@
+body {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(56, 56, 56);
+    color: blanchedalmond;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-seri
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-seri
+}
+
+input {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+}
