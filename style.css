@@ -1,39 +1,46 @@
 body {
-    font-size: large;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 0;
-    background-color: rgb(56, 56, 56);
-    color: blanchedalmond;
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-seri
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .caixa {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    width: 300px;
-    height: 300px;
-    background-color: blanchedalmond;
-}
-
-.titulo {
-    font-family: Arial, Helvetica, sans-seri
-}
-
-input {
-    width: 90%;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-button {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
+    max-width: 400px;
+}
+
+.caixa input, 
+.caixa select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.botão {
+    margin-top: 20px;
+}
+
+#botao {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
